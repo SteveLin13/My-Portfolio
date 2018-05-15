@@ -1,0 +1,30 @@
+body {
+  background: #b2b2b51f;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #2d3c49;
+}
+
+.title-avatar {
+  margin-top: 20px;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.text-muted {
+  color: #7d97ad;
+}
+
+/*responsive for tablet*/
+@media (min-width: 576px) and (max-width: 1024px) {
+  .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
